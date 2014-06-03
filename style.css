@@ -1,0 +1,135 @@
+body { 
+	font: normal 1em/1.2em Helvetica, Arial, sans-serif; 
+	color: #989795;
+	background-color: #fafafa;	
+}
+
+/* --------------------------
+
+Container & columns
+------------------------------*/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 80px 60px;
+	border-top: 20px solid #57585e;
+	background-color: #e9e8e4;
+	border-bottom: 10px solid #57585e;
+}
+
+.column {
+	width: 465px;
+	float: left;
+}
+.column:first-child {
+	padding-right: 30px;
+}
+
+section {
+	border-bottom: 3px solid #57585e;
+}
+
+
+/* ------- HEADERS ----------- */
+
+h1 { 
+	font: bold 3em/1em Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #57585e;
+}
+
+h2 {
+	font: bold 3em/1em Helvetica, Arial, sans-serif;
+	color: #e86300;
+}
+
+h3 {
+	display: block;
+	position: relative;
+	font: 700 1.2em/1.5em Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	border-bottom: 2px solid #989795;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	color: #57585e;
+	letter-spacing: .7px;
+}
+
+#contact h3 {
+	padding-top: 0;
+}
+
+/* ---------- Personal STatement ------------ */
+
+.personal-statement p {
+	padding: 10px 20px 30px 20px;
+	line-height: 1.5em;
+	text-align: justify;
+	color: #57585e;
+}
+
+
+
+ul { 
+	list-style: none; 
+	padding-left: 0; 
+}
+
+li { padding: 2px 0}
+
+small {
+	font-size: .9em;
+	line-height: .9em;
+	font-style: italic;
+	color: #e86300;
+}
+
+/* -------- CONTACT ------------ */
+
+#contact ul {
+	margin-top: -10px;
+	margin-bottom: 8px;
+	padding-left: 20px;
+}
+
+#contact a {
+	text-decoration: none; 
+	color: #57585e;
+}
+#contact li a:hover { background-color: yellow; }
+#contact li a:visited { color: #57585e; }
+
+
+/* ------ bullet ------- */
+
+.bullet {
+	position: absolute;
+	left: -20px;
+	top: 38px;
+	border-radius: 33%;
+	border: 6px solid #e86300;
+	width: 1px;
+}
+
+#contact .bullet {
+	top: 8px;
+}
+
+/* -------- misc -------- */
+
+strong { 
+	color: #e86300; 
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+li > ul { padding: 3px 0 14px 20px;}
+
+footer {
+	clear: both;
+	padding-top: 20px;
+}
+
+
